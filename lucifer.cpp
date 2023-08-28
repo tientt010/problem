@@ -1,5 +1,10 @@
 #include<bits/stdc++.h>
 
+//một số là số lucifer nếu tổng các chữ số ở vị trí chãn trừ tổng các số ở vị trí lẻ là 1 số nguyên tố
+//đếm trong khoảng [l,r] có bao nhiêu số như vậy
+//lưu ý: vị trí tính từ hàng đơn vị và bắt đầu từ 1
+//Input:    150 200     100 150     50 100
+//Output:   16          3           18
 using namespace std;
 
 int l,r;
